@@ -1,5 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 import contactImage from '../../../static/assets/images/contact/macbook.jpg'
 
@@ -36,6 +37,16 @@ export default function () {
                         </div>
                         <div className='text'>
                             Hanover, PA
+                        </div>
+                    </div>
+                    <div className='bullet-point-group'>
+                        <div className='icon'>
+                            <FontAwesomeIcon icon='code-branch' />
+                        </div>
+                        <div className='text'>
+                            <a className='github-link' href='https://github.com/TCMooney'>
+                                Github
+                            </a>
                         </div>
                     </div>
                 </div>

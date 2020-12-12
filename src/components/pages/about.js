@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import aboutImage from '../../../static/assets/images/about/about.jpg'
 
@@ -14,9 +16,9 @@ export default function () {
                 }}
             />
             <div className='right-column'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere impedit quasi ipsam consectetur quos molestiae quaerat quis debitis nobis aliquid, accusamus reprehenderit? Repudiandae earum accusamus commodi, laboriosam sint minus saepe.</p>
-                <p>Est voluptatum omnis fuga asperiores rerum accusamus ullam consectetur amet molestiae vitae illo fugit, corrupti ex distinctio id explicabo facere, minus excepturi culpa error tempore mollitia laborum! Hic, sunt modi.</p>
-                <p>Inventore voluptatem veniam ea repudiandae excepturi accusantium nesciunt ipsam vero sint, pariatur iure architecto placeat numquam, iste aspernatur magnam alias natus, tempore dolores enim eum! Voluptates laborum aliquid id veritatis?</p>
+                <p>
+                    Hi, I'm Tom. I'm a full stack web developer based in Hanover, PA. I'm experienced in JavaScript, React, NodeJS and an assortment of other technologies.When I'm not writing code, you can find me at the skatepark working on some new tricks or playing guitar working on some new riffs.
+                </p>
             </div>
         </div>
     )
